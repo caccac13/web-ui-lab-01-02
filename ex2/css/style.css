@@ -1,0 +1,77 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#main {
+}
+
+#header {
+  background-color: #9931cc;
+  height: 150px;
+  width: 100%;
+}
+
+#header h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 15px;
+  line-height: 150px;
+}
+
+#container ul {
+  margin: 20px;
+}
+
+#container ul p {
+  background-color: #33b5e5;
+  color: #fff;
+  padding: 10px 8px;
+  margin: 15px 0;
+}
+
+#container ul p:hover {
+  background-color: #0099cc;
+  cursor: pointer;
+}
+
+#container .content div {
+  margin: 20px;
+}
+
+#container .content .title {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+#container .ask-ans {
+}
+
+#container .ask-ans div {
+  background-color: #33b5e5;
+  margin: 20px;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+#container .ask-ans .ask {
+  font-size: 21px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+#container .ask-ans .ans {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+#footer {
+  height: 100px;
+  background-color: #33b5e5;
+  text-align: center;
+  color: #fff;
+  line-height: 100px;
+  font-size: 12px;
+}

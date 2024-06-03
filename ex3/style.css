@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-1200-center {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+}
+
+.header {
+  background-color: #11357c;
+  height: 64px;
+  line-height: 64px;
+}
+
+.header .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+}
+
+.header img {
+  height: 24px;
+}
+
+.header .nav {
+  display: flex;
+}
+
+.header .nav p {
+  color: #fff;
+  padding: 0 12px;
+  opacity: 0.6;
+}
+
+.header .nav li:first-child p {
+  opacity: 1;
+}
+
+.container {
+}
+
+.container .content {
+  padding: 40px 0;
+}
+
+.container .content .text {
+  padding: 0 30px;
+}
+
+.container .content .text p {
+  padding: 10px 0;
+}
+
+.container .content .title {
+  font-size: 40px;
+}
+
+.container .content .des {
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.container .content .text button {
+  background-color: #11357c;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.container .wall {
+  background-color: #11357c;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.container .wall p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.container .courses {
+}
+
+.container .courses .title {
+text-align: center;
+
+}
+
+.container .courses .title p {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container .courses .list-courses {
+    display: flex;
+    justify-content: space-around;
+    margin: -16px;
+}
+
+.container .course img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.container .course {
+  margin: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.container .body{
+  min-height: 120px;
+  margin: 16px;
+}
+
+.container .body .name {
+  color: #11357c;
+  font-size: 24px;
+  margin-bottom: 16px;
+} 
+
+.container .body .des {
+  letter-spacing: 1px;
+}
+
+
+
+
+.footer {
+  margin-top: 40px;
+  background-color: #11357c;
+  height: 140px;
+  color: #fff; text-align: center;
+  line-height: 140px;
+  font-size: 12px;
+}
